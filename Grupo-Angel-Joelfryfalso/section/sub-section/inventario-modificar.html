@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Burger House</title>
+</head>
+<body>
+    <main>
+        <center>
+            <table cellspacing="5" cellpadding="5" bgcolor="seashell">
+                <tr>
+                    <th align="left">Ingredientes:</th>
+                    <th>
+                        <input list="ingredientes">
+                        <datalist id="ingredientes">
+                            <option value="Pan Sésamo"></option>
+                            <option value="Carne de Res"></option>
+                            <option value="Pollo"></option>
+                            <option value="Queso Cheddar"></option>
+                            <option value="Lechuga"></option>
+                            <option value="Tomate"></option>
+                            <option value="Pepinillos"></option>
+                            <option value="Cebolla"></option>
+                            <option value="Tocino"></option>
+                            <option value="Salas BBQ"></option>
+                            <option value="Mayonesa"></option>
+                            <option value="Pan Integral"></option>
+                            <option value="Hamburguesa Veganas"></option>
+                            <option value="Jalapeños"></option>
+                        </datalist>
+                    </th>
+                </tr>
+                <tr>
+                    <th align="left">Cantidad Disponible:</th>
+                    <th>
+                        <input type="number">                             
+                    </th>
+                </tr>
+                <tr>
+                    <th align="left">Umbral Mínimo</th>
+                    <th><input type="number"></th>
+                </tr>
+                <tr>
+                    <th align="left">Estado del Stock</th>
+                    <th>
+                        <input list="estado">
+                        <datalist id="estado">
+                            <option value="OK"></option>
+                            <option value="Bajo"></option>
+                            <option value="Reordenar"></option>
+                        </datalist>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <button><a href="../apartado-inventario.html">Cancelar</a></button>
+                    </td>
+                    <td colspan="2" align="right">
+                        <button><a href="../apartado-inventario.html">Agregar</a></button>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </main>
+</body>
+</html>
